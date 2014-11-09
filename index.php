@@ -19,7 +19,7 @@ $entityManager->persist($rankStyle);
 $entityManager->flush();
 
 /**
-this code will fail:
-$entityManager->persist($rank);
-$entityManager->flush();
+ * this code will fail:
+ * $entityManager->persist($rank);
+ * $entityManager->flush();
  */
